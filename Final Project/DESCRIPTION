@@ -1,0 +1,12 @@
+Package: obesitychances
+Title: Calculate Your Obesity Probabilities
+Description: Perform accurate calculations to determine your probailiites of getting obsese 
+             using three metrics - BMI Calculator, Waist To Hip Ratio and Waist To Height Ratio.
+             Afterwards, compute the obseity status of your inputs (0%, 33%, 66%, 100%)
+Version: 1.0
+Authors@R: person("Damaen", "Tan", email = "tada.maenth@gmail.com", role = c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Video: "https://youtu.be/oXufSG76ozI"
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

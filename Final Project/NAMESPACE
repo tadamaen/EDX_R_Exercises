@@ -1,0 +1,6 @@
+# Demonstrates declaring `obesitychances` accessible to package end users
+
+export(calculate_bmi)
+export(calculate_wthr)
+export(calculate_wthipr)
+export(obesitychances)
