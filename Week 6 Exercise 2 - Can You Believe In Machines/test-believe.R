@@ -28,7 +28,7 @@ test_that("Negative values/ Zero:", {
 })
 
 # 4th Test - Test cases for absurd height/weight values
-test_that("Negative values/ Zero:", {
+test_that("Absurd height/weight values:", {
     expect_warning(calculate_bmi(500, 1.6))
     expect_warning(calculate_bmi(80, 5.0))
     expect_warning(calculate_bmi(1000, 100))
